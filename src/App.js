@@ -5,12 +5,12 @@ import { createStructuredSelector } from 'reselect';
 
 import './App.css';
 
-import HomePage from './pages/homepage/homepage';
-import ShopPage from './pages/shop/shop';
-import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up';
-import CheckoutPage from './pages/checkout/checkout';
+import HomePage from './container/homepage/homepage.component';
+import ShopPage from './container/shop/shop';
+import SignInAndSignUpPage from './container/Login/Login';
+import CheckoutPage from './container/checkout/checkout';
 
-import Header from './components/header/header';
+import Header from './component/header/header';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
